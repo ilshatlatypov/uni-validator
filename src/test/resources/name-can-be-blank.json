@@ -1,0 +1,7 @@
+[
+  {
+    "fieldname": "name",
+    "type" : "string",
+    "notBlank": false
+  }
+]

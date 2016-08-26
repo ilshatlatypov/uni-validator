@@ -1,0 +1,7 @@
+[
+  {
+    "fieldname": "firstname",
+    "type" : "string",
+    "required" : true
+  }
+]
