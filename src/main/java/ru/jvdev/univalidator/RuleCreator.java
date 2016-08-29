@@ -2,6 +2,7 @@ package ru.jvdev.univalidator;
 
 import java.text.MessageFormat;
 
+import ru.jvdev.univalidator.exception.UniValidatorException;
 import ru.jvdev.univalidator.rules.ValidationRule;
 
 /**

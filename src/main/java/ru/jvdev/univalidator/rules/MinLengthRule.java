@@ -2,8 +2,6 @@ package ru.jvdev.univalidator.rules;
 
 import java.text.MessageFormat;
 
-import com.sun.istack.internal.NotNull;
-
 /**
  * @author <a href="mailto:ilatypov@wiley.com">Ilshat Latypov</a>
  * @since 23.08.2016
@@ -20,7 +18,7 @@ public class MinLengthRule implements ValidationRule {
     }
 
     @Override
-    public boolean check(@NotNull Object value) {
+    public boolean check(Object value) {
         return value.toString().length() >= minLength;
     }
 
